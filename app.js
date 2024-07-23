@@ -39,8 +39,10 @@ function handleKeyPress(e){
     }
 
     if (operators.indexOf(lastchar) !== -1 && operators.indexOf(key)!==-1){
-        
+
     }
+
+    
     if (key) {
         if (key === '.') decimalAdded = true
         operation += key
